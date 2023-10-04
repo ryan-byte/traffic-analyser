@@ -1,0 +1,23 @@
+{
+  "name": "traffic-analyser",
+  "version": "1.0.0",
+  "description": "A web scraper that gathers traffic data about websites and saves it in an excel sheet.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-byte/traffic-analyser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-byte/traffic-analyser/issues"
+  },
+  "homepage": "https://github.com/ryan-byte/traffic-analyser#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.38.1"
+  }
+}
