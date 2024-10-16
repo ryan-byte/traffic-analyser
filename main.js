@@ -25,7 +25,13 @@ async function main(){
 
 async function getWebsiteList(){
     let websiteFileData = await readFile("websites.txt");
-    return websiteFileData.split("\n")
+    let websiteArr = websiteFileData.split("\n");
+    let outputArr = [];
+    websiteArr.forEach(website => {
+        if (website !== "") outputArr.push(website);
+    });
+    console.log(outputArr);
+    return outputArr;
 }
 
 
